@@ -1,0 +1,86 @@
+
+
+.pulled-right {
+	display: block;
+	float: right;
+	padding: 0 0 0 10px;
+	margin: 20px 0 10px 20px;
+	width: 200px;
+	font-size: 18px;
+	text-align: left;
+	color: #A1A1A1;
+	border-left: 3px solid #CCC;
+	line-height: 120%;
+}
+.pulled-left {
+	display: block;
+	float: left;
+	padding: 0 10px 0 0;
+	margin: 20px 20px 10px 0;
+	width: 200px;
+	font-size: 18px;
+	text-align: left;
+	color: #A1A1A1;
+	border-right: 3px solid #CCC;
+	line-height: 120%;
+}
+
+.pullquote_social {
+	clear: both;
+	margin-top:10px;
+	border-top: 1px solid #f5f5f5;	
+	padding-top: 10px;
+}
+
+.pullquote_social .pullquote_twitter,
+.pullquote_social .pullquote_facebook {
+	display:block;
+	cursor: pointer;
+	width:16px;
+	height:16px;
+	opacity: .6;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.pullquote_social .pullquote_twitter:hover,
+.pullquote_social .pullquote_facebook:hover {
+	opacity: 1;
+}
+
+.pullquote_social .pullquote_twitter:active,
+.pullquote_social .pullquote_facebook:active {
+	opacity: .5;
+}
+
+.pullquote_social .pullquote_twitter {
+	background: url(../images/twitter.png) 50% 50% no-repeat;
+}
+
+.pullquote_social .pullquote_facebook {
+	background: url(../images/facebook.png) 50% 50% no-repeat;
+}
+
+.pullquote_copyright {
+	font-size: 11px;	
+	text-transform:uppercase;
+	margin-top: 5px;
+}
+
+.pullquote_copyright a {
+	color: #888;
+	font-weight: 600;
+	text-decoration: none;
+	opacity: .6;
+}
+
+.pullquote_copyright a:hover {
+	color: #888;
+	opacity: 1;
+}
+
+.pullquote_copyright a:active {
+	color: #888;
+	opacity: .5;
+}
